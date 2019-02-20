@@ -1,0 +1,55 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  padding-top: 1rem;
+  background-color: white;
+}
+
+.table-wrapper {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.table-computers {
+  text-align: center;
+}
+
+.table td,
+.table th {
+  padding: .5rem 1rem;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.table pre {
+  margin: 0;
+}
+
+.table td.index {
+  width: 1%;
+}
+
+.table td.content {
+  width: 100%;
+}
+
+.table td.actions {
+  width: 1%;
+}
+
+span.card-title {
+  font-size: 1.2rem;
+}
+
+.card.card-data {
+  margin-bottom: 1rem;
+}
+
+.alert > ul {
+  margin: 0;
+}
